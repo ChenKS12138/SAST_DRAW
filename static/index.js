@@ -6,7 +6,7 @@ try {
     const nameElement = document.querySelector('#name');
     const studentIDElement = document.querySelector('#studendID');
     let t,seq = 0;
-    const increase = () => (seq = seq+1 >= data.length ? 1 : seq + 1);
+    const increase = () => (seq = seq+1 >= data.length ? 0 : seq + 1);
     return {
       start() {
         t = setInterval(() => {
