@@ -1,0 +1,14 @@
+{
+  "name": "sast_draw",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-xlsx": "^0.15.0"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "test":"node .test.js"
+  }
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>SAST_DRAW</title>
+  <style>
+    *{
+      border: 0;
+      padding: 0;
+      margin: 0;
+      user-select: none;
+    }
+    #app{
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    #department,#name,#studendID{
+      font-size: 4rem;
+    }
+    .tip{
+      color: grey;
+      position: absolute;
+      bottom: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <div id="app">
+    <div id="department"></div>
+    <div id="name">按下ENTER开始</div>
+    <div id="studendID"></div>
+    <small class="tip">press ENTER to continue</small>
+  </div>
+  <script src="./index.js"></script>
+</body>
+</html>
